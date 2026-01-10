@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creme Redutor Instantâneo de Linhas Le Mona Liftensor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/logo png.png" type="image/png">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <header class="header">
+            <div class="logo">
+                <img src="imagens/logo png.png" alt="Le Mona Logo" class="logo-image">
+            </div>
+        </header>
+
+        <!-- Product Section -->
+        <div class="product-section">
+            <!-- Product Images -->
+            <div class="product-images">
+                <div class="main-image">
+                    <img id="mainImage" src="cdn/shop/files/gif1.gif" alt="Creme Redutor Instantâneo de Linhas">
+                </div>
+                <div class="thumbnail-gallery">
+                    <button class="nav-btn prev" onclick="scrollGallery(-1)">‹</button>
+                    <div class="thumbnails">
+                        <img src="cdn/shop/files/gif1.gif" alt="Produto 1" class="thumbnail active"
+                            onclick="changeMainImage(this, 0)">
+                        <img src="cdn/shop/files/gif2.gif" alt="Produto 2" class="thumbnail"
+                            onclick="changeMainImage(this, 1)">
+                        <img src="cdn/shop/files/gif3.gif" alt="Produto 3" class="thumbnail"
+                            onclick="changeMainImage(this, 2)">
+                        <img src="cdn/shop/files/gif4.gif" alt="Produto 4" class="thumbnail"
+                            onclick="changeMainImage(this, 3)">
+                        <img src="cdn/shop/files/gif5.gif" alt="Produto 5" class="thumbnail"
+                            onclick="changeMainImage(this, 4)">
+                    </div>
+                    <button class="nav-btn next" onclick="scrollGallery(1)">›</button>
+                </div>
+            </div>
+
+            <!-- Product Info -->
+            <div class="product-info">
+                <h1 class="product-title">Creme Redutor Instantâneo de Linhas Le Mona Liftensor</h1>
+
+                <!-- Rating -->
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                </div>
+
+                <!-- Price -->
+                <div class="price-section">
+                    <span class="price" id="mainPrice">R$ 177,00</span>
+                    <span class="shipping">Frete GRÁTIS nas compras acima de R$100.</span>
+                </div>
+
+                <!-- Social Proof -->
+                <div class="social-proof">
+                    <span class="dot"></span>
+                    <span class="viewing" id="viewingCounter">40 pessoas vendo agora</span>
+                </div>
+
+                <!-- Stock Counter -->
+                <div class="stock-info">
+                    <p id="stockCounter">Unidades restantes: 119</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <!-- Quantity Options -->
+                <div class="quantity-options">
+                    <div class="option" data-quantity="1" onclick="selectQuantity(1)">
+                        <div class="option-header">
+                            <span class="quantity-label">1 Unidade</span>
+                            <span class="option-price">R$ 177,00</span>
+                        </div>
+                        <p class="treatment-info">Tratamento para 30 dias</p>
+                    </div>
+
+                    <div class="option" data-quantity="2" onclick="selectQuantity(2)">
+                        <div class="option-header">
+                            <span class="quantity-label">2 Unidades</span>
+                            <span class="option-price">R$ 277,00</span>
+                        </div>
+                        <p class="discount-info">Economize R$ 77,00 (22% de desconto)</p>
+                    </div>
+
+                    <div class="option best-offer" data-quantity="3" onclick="selectQuantity(3)">
+                        <span class="badge">MELHOR OFERTA</span>
+                        <div class="option-header">
+                            <span class="quantity-label">3 Unidades</span>
+                            <span class="option-price">R$ 377,00</span>
+                        </div>
+                        <p class="discount-info">Economize R$ 154,00 (29% de desconto)</p>
+                    </div>
+                </div>
+
+                <!-- Buy Button -->
+                <button class="buy-button" id="buyButton">COMPRAR AGORA</button>
+
+                <!-- Guarantee -->
+                <div class="guarantee">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M8 1L10 6H15L11 9L13 14L8 11L3 14L5 9L1 6H6L8 1Z" stroke="#666" fill="none" />
+                    </svg>
+                    <span>Garantia de 10 dias. Compra segura.</span>
+                </div>
+
+                <!-- Product Description -->
+                <div class="product-description">
+                    <h2 class="description-title">Descubra o LIFTENSOR da LE MONA: A Revolução em Cuidados para a Área
+                        dos Olhos</h2>
+
+                    <p class="description-text">
+                        Diga adeus às bolsas, rugas e linhas finas com LIFTENSOR, o inovador tratamento da LE MONA que
+                        proporciona um incrível efeito lifting e tensor instantâneo. para mulheres 50+.
+                    </p>
+
+                    <p class="description-text">
+                        Desenvolvido com a mais avançada ciência, LIFTENSOR age de forma rápida e eficaz, restabelecendo
+                        a juventude do olhar sem promessas vazias.
+                    </p>
+
+                    <p class="description-text">
+                        Imagine olhar no espelho e ver a pele ao redor dos seus olhos mais firme, suave e revitalizada
+                        em questão de minutos. Nossa fórmula exclusiva combina ingredientes potentes que trabalham em
+                        sinergia para reduzir visivelmente os sinais do envelhecimento, trazendo à tona a sua beleza
+                        natural.
+                    </p>
+
+                    <p class="description-text">
+                        Com LIFTENSOR, você não precisa mais se preocupar com truques ou maquiagem pesada para disfarçar
+                        as imperfeições. Experimente a verdadeira transformação e sinta a confiança que vem de um olhar
+                        descansado e radiante, tudo isso em apenas 5 minutos após a aplicação.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Rollers Section (Full Width) -->
+    <div class="rollers-section">
+        <!-- Top Roller - Special Offers -->
+        <div class="roller roller-top">
+            <div class="roller-track">
+                <div class="roller-content">
+                    <span class="roller-item">Frete Grátis</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">Kits com até 29% OFF</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">Garantia Incondicional</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">+150 mil clientes satisfeitas</span>
+                    <span class="roller-separator">|</span>
+                </div>
+                <div class="roller-content" aria-hidden="true">
+                    <span class="roller-item">Frete Grátis</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">Kits com até 29% OFF</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">Garantia Incondicional</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">+150 mil clientes satisfeitas</span>
+                    <span class="roller-separator">|</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Roller - Product Descriptions -->
+        <div class="roller roller-bottom">
+            <div class="roller-track">
+                <div class="roller-content">
+                    <span class="roller-item">Pele mais rejuvenescida</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">A mesma fórmula poderosa agora com mais sofisticação e praticidade</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">Aplicação precisa até nas linhas mais finas com o novo design
+                        inteligente</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">Reduz rugas e bolsas instantaneamente</span>
+                    <span class="roller-separator">|</span>
+                </div>
+                <div class="roller-content" aria-hidden="true">
+                    <span class="roller-item">Pele mais rejuvenescida</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">A mesma fórmula poderosa agora com mais sofisticação e praticidade</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">Aplicação precisa até nas linhas mais finas com o novo design
+                        inteligente</span>
+                    <span class="roller-separator">|</span>
+                    <span class="roller-item">Reduz rugas e bolsas instantaneamente</span>
+                    <span class="roller-separator">|</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Features Section -->
+    <div class="container">
+        <section class="premium-features">
+            <h2 class="features-title">SEU FAVORITO CHEGOU: MAIS MODERNO, MAIS PRECISO</h2>
+            <p class="features-subtitle">A fórmula que você confia, agora com a praticidade que você precisava.</p>
+
+            <div class="features-image">
+                <img src="cdn/shop/files/lemona1splash.jpeg" alt="Le Mona Instant Eye Lift">
+            </div>
+            <div class="features-content">
+
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#6b4d7a" stroke-width="2" />
+                                <path d="M8 12L11 15L16 9" stroke="#6b4d7a" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Creme Aplicador</h3>
+                            <p>Mais controle e zero desperdício em cada toque.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#6b4d7a" stroke-width="2" />
+                                <path d="M8 12L11 15L16 9" stroke="#6b4d7a" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Design Inteligente</h3>
+                            <p>Aplicação direcionada, ideal para tratar cada vinco e linha de expressão.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#6b4d7a" stroke-width="2" />
+                                <path d="M8 12L11 15L16 9" stroke="#6b4d7a" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Ação Express</h3>
+                            <p>Sinta o efeito lifting e a firmeza na pele em poucos minutos.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#6b4d7a" stroke-width="2" />
+                                <path d="M8 12L11 15L16 9" stroke="#6b4d7a" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Fórmula Clínica</h3>
+                            <p>Combate bolsas e rugas com resultados reais e duradouros.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="#6b4d7a" stroke-width="2" />
+                                <path d="M8 12L11 15L16 9" stroke="#6b4d7a" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="feature-text">
+                            <h3>Visual Premium</h3>
+                            <p>Sofisticação que acompanha a qualidade do tratamento.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="features-footer">Sua dose diária de confiança, agora em uma versão ainda mais profissional.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Before/After Results Section -->
+    <div class="results-section">
+        <div class="container">
+            <h2 class="results-main-title">Com o novo creme LIFTENSOR da LE MONA, você pode rejuvenescer 10 anos em
+                apenas 5 minutos.</h2>
+            <p class="results-subtitle">De forma indolor e segura.</p>
+
+            <div class="results-grid">
+                <!-- Card 1 -->
+                <div class="result-card">
+                    <div class="result-image">
+                        <img src="cdn/shop/files/reduz linhas finas e rugas.jpeg"
+                            alt="Antes e Depois - Reduz linhas finas">
+                    </div>
+                    <h3 class="result-title">Reduz linhas finas e rugas</h3>
+                    <ul class="result-benefits">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>Redução visível da profundidade de rugas e linhas finas logo nos primeiros 5
+                                minutos.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>95,5% das pessoas confirmam a suavização das marcas em apenas 1 hora após o
+                                uso.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>Proporciona uma pele notavelmente mais macia, com viço e aparência
+                                rejuvenescida.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="result-card">
+                    <div class="result-image">
+                        <img src="cdn/shop/files/elimina bolsa sobre olhos.jpeg" alt="Antes e Depois - Elimina bolsas">
+                    </div>
+                    <h3 class="result-title">Elimina as bolsas sob os olhos</h3>
+                    <ul class="result-benefits">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>Redução profunda das bolsas para uma aparência descansada e leve.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>Suavização imediata do inchaço e das marcas sob os olhos.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>Elimina o aspecto de cansaço, devolvendo o brilho e a energia ao seu rosto.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="result-card">
+                    <div class="result-image">
+                        <img src="cdn/shop/files/efeito tensor lifting.jpeg" alt="Antes e Depois - Efeito lifting">
+                    </div>
+                    <h3 class="result-title">Efeito Tensor/Lifting imediato</h3>
+                    <ul class="result-benefits">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>100% das pessoas perceberam o efeito lifting no exato momento da aplicação.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>Sinta a pele mais firme e o contorno realçado em segundos.</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" fill="#6b4d7a" />
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span>Sustentação e efeito tensor de alta durabilidade, mantendo o resultado por até 8
+                                horas.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Science Section -->
+    <div class="science-section">
+        <div class="container">
+            <h2 class="science-title">A ciência por trás da Juventude Instantânea: POR QUE FUNCIONA NA PELE 50+?</h2>
+
+            <div class="science-content">
+                <p>A pele madura exige soluções inteligentes. Nosso segredo está na Tecnologia Biotensor-P, uma sinergia
+                    molecular avançada que atua onde sua pele mais precisa.</p>
+
+                <p>Desenvolvido exclusivamente para as necessidades da pele madura, nosso creme utiliza a tecnologia
+                    Biotensor-P para devolver a vitalidade ao seu rosto em minutos. Ao combinar silicatos com o poderoso
+                    peptídeo Acetil Hexapeptídeo-8, ele cria um efeito lifting imediato que preenche rugas, suaviza
+                    bolsas e recupera a firmeza da pele por até 8 horas. Agora, com um novo aplicador de alta precisão,
+                    você garante um tratamento sofisticado e resultados visíveis desde a primeira aplicação.</p>
+            </div>
+
+            <div class="science-icons-grid">
+                <div class="science-item">
+                    <div class="science-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M12 18v3m-4-1 2-2m6 0-2 2" />
+                        </svg>
+                    </div>
+                    <span>BOLSAS SOB OS OLHOS</span>
+                </div>
+
+                <div class="science-item">
+                    <div class="science-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M9 10h.01M15 10h.01M9.5 15a3.5 3.5 0 0 0 5 0" />
+                            <path d="M3 12h18" />
+                        </svg>
+                    </div>
+                    <span>RUGAS E LINHAS FINAS</span>
+                </div>
+
+                <div class="science-item">
+                    <div class="science-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M12 5V2m-2 3-1-2m4 2 1-2" />
+                        </svg>
+                    </div>
+                    <span>PÁLPEBRA CAÍDA</span>
+                </div>
+
+                <div class="science-item">
+                    <div class="science-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                            <path d="M9 9h.01M15 9h.01" />
+                            <path d="M16 14l2 2m-12-2l-2 2" />
+                        </svg>
+                    </div>
+                    <span>BIGODE CHINÊS</span>
+                </div>
+
+                <div class="science-item">
+                    <div class="science-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M22 12h-2m2 3h-2m2-6h-2" />
+                        </svg>
+                    </div>
+                    <span>PÉS DE GALINHA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+    <!-- Comparison Section -->
+    <div class="comparison-section">
+        <div class="container">
+            <h2 class="comparison-title">Por que escolher o<br>Creme REDUTOR DE LINHAS INSTANTÂNEO?</h2>
+
+            <div class="comparison-grid">
+                <!-- Our Product (Featured) -->
+                <div class="comparison-card featured">
+                    <div class="card-header highlight">
+                        <div class="product-img-wrapper">
+                            <img src="imagens/lemona png.png" alt="Creme Redutor Le Mona">
+                        </div>
+                        <div class="price-badge">R$177</div>
+                        <h3 class="product-name">Creme Redutor de<br>Linhas Instantâneo</h3>
+                    </div>
+                    <ul class="comparison-list">
+                        <li class="check">
+                            <span>Resultado imediato</span>
+                            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                        <li class="check">
+                            <span>Procedimento não invasivo</span>
+                            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                        <li class="check">
+                            <span>Efetividade comprovada</span>
+                            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                        <li class="check">
+                            <span>Efeito tensor e lift</span>
+                            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                        <li class="check">
+                            <span>Sem efeitos colaterais</span>
+                            <div class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Competitor 1: Toxina -->
+                <div class="comparison-card">
+                    <div class="card-header">
+                        <div class="product-img-wrapper">
+                            <img src="imagens/toxina.png" alt="Toxina">
+                        </div>
+                        <div class="price-tag">R$1000</div>
+                        <h3 class="product-name">Toxina</h3>
+                    </div>
+                    <ul class="comparison-list">
+                        <li class="cross">
+                            <span>Resultado imediato</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                        <li class="cross">
+                            <span>Procedimento não invasivo</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                        <li class="check">
+                            <span>Efetividade comprovada</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#4CAF50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                        <li class="check">
+                            <span>Efeito tensor e lift</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#4CAF50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                        <li class="cross">
+                            <span>Sem efeitos colaterais</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Competitor 2: Laser Roller -->
+                <div class="comparison-card">
+                    <div class="card-header">
+                        <div class="product-img-wrapper">
+                            <img src="imagens/laser roller.png" alt="Laser Roller">
+                        </div>
+                        <div class="price-tag">R$3000</div>
+                        <h3 class="product-name">Laser Roller</h3>
+                    </div>
+                    <ul class="comparison-list">
+                        <li class="cross">
+                            <span>Resultado imediato</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                        <li class="cross">
+                            <span>Procedimento não invasivo</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                        <li class="cross">
+                            <span>Efetividade comprovada</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                        <li class="cross">
+                            <span>Efeito tensor e lift</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                        <li class="cross">
+                            <span>Sem efeitos colaterais</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Competitor 3: Retinol Comum -->
+                <div class="comparison-card">
+                    <div class="card-header">
+                        <div class="product-img-wrapper">
+                            <img src="imagens/retinol comum.png" alt="Retinol Comum">
+                        </div>
+                        <div class="price-tag">R$150</div>
+                        <h3 class="product-name">Retinol Comum</h3>
+                    </div>
+                    <ul class="comparison-list">
+                        <li class="cross">
+                            <span>Resultado imediato</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                        <li class="check">
+                            <span>Procedimento não invasivo</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#4CAF50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                        <li class="check">
+                            <span>Efetividade comprovada</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#4CAF50" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg></div>
+                        </li>
+                        <li class="cross">
+                            <span>Efeito tensor e lift</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                        <li class="cross">
+                            <span>Sem efeitos colaterais</span>
+                            <div class="icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="#6b4d7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                                </svg></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Women 50+ Love Section -->
+    <div class="love-section">
+        <div class="container">
+            <h2 class="love-title">O QUE AS MULHERES 50+ MAIS AMAM<br><span>sobre o Creme Redutor Instantâneo de
+                    Linhas</span></h2>
+
+            <div class="love-grid">
+                <!-- Feature 1 -->
+                <div class="love-item">
+                    <div class="love-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2.5 12c0-4.4 3.6-8 8-8 4.4 0 8 3.6 8 8 0 4.4-3.6 8-8 8-4.4 0-8-3.6-8-8z" />
+                            <path d="M10.5 12a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0z" />
+                            <path d="M16 16l3 3m-3-3l3-3" /> <!-- Wrinkles/Lines graphic -->
+                        </svg>
+                    </div>
+                    <h3 class="love-item-title">Reduz linhas, rugas e bolsas sob os olhos</h3>
+                    <p class="love-item-desc">A tecnologia Biotensor-P relaxa os músculos faciais e proporciona um
+                        efeito tensor na pele, resultando em uma pele mais lisa e firme.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="love-item">
+                    <div class="love-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 17h20M2 12h20M2 7h20" /> <!-- Skin layers -->
+                            <path d="M12 2l1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" /> <!-- Sparkle -->
+                            <path d="M18 4l.5 1 1 .5-1 .5-.5 1-.5-1-1-.5 1-.5.5-1z" /> <!-- Sparkle -->
+                        </svg>
+                    </div>
+                    <h3 class="love-item-title">Rápido, indolor e seguro</h3>
+                    <p class="love-item-desc">Desenvolvido para que qualquer pessoa possa utilizar de maneira fácil,
+                        indolor, segura, da sua própria casa.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="love-item">
+                    <div class="love-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                            <path d="M12 2v2" />
+                        </svg>
+                    </div>
+                    <h3 class="love-item-title">Resultados visíveis em apenas 3 minutos</h3>
+                    <p class="love-item-desc">Expressões do tempo visivelmente reduzidas e pele mais firme imediatamente
+                        - chega de esperar meses para ver se seus cuidados com a pele funcionam.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="love-item">
+                    <div class="love-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" /> <!-- Face base -->
+                            <path d="M8 10a2 2 0 1 0 4 0 2 2 0 0 0-4 0z" /> <!-- Eye -->
+                            <path d="M15 10a2 2 0 1 0 4 0 2 2 0 0 0-4 0z" /> <!-- Eye -->
+                            <path d="M10 15c1 1 2 1.5 3.5 1.5s2.5-.5 3.5-1.5" /> <!-- Smile -->
+                            <path d="M20 4l.5 1 1 .5-1 .5-.5 1-.5-1-1-.5 1-.5.5-1z" /> <!-- Sparkle -->
+                        </svg>
+                    </div>
+                    <h3 class="love-item-title">Rejuvenescimento sem aspecto artificial</h3>
+                    <p class="love-item-desc">Diga adeus aos efeitos colaterais, como irritação e músculos faciais
+                        congelados: nossa fórmula poderosa trabalha com sua pele, não contra ela.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="love-item">
+                    <div class="love-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 1v22" />
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                            <circle cx="12" cy="12" r="10" /> <!-- Dollar coin analogy -->
+                        </svg>
+                    </div>
+                    <h3 class="love-item-title">Mesmos resultados, por 1/10 do preço</h3>
+                    <p class="love-item-desc">Uma pele com os resultados de uma clínica profissional, da sua casa e sem
+                        gastar uma fortuna.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="love-item">
+                    <div class="love-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#6b4d7a" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            <path d="M9 12l2 2 4-4" />
+                        </svg>
+                    </div>
+                    <h3 class="love-item-title">Eficácia comprovada que você pode confiar</h3>
+                    <p class="love-item-desc">Tenha confiança na sua escolha com Le Mona - fórmula apoiada por testes
+                        rigorosos de laboratórios independentes e resultados clínicos que falam por si.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guarantee Section -->
+    <div class="guarantee-section">
+        <div class="container">
+            <div class="guarantee-wrapper">
+                <div class="guarantee-media">
+                    <img src="imagens/selo-garantia.webp" alt="Selo Garantia 10 Dias" class="guarantee-seal">
+                </div>
+                <div class="guarantee-text">
+                    <h2 class="guarantee-title">Garantia Incondicional de 10 Dias</h2>
+                    <p class="guarantee-subtitle">Experimente sem riscos e veja os resultados por você mesma!</p>
+
+                    <p class="guarantee-desc">
+                        Estamos tão confiantes nos resultados do <strong>LIFTENSOR</strong> que oferecemos uma garantia
+                        total de satisfação.
+                    </p>
+                    <p class="guarantee-desc">
+                        Se por qualquer motivo você não estiver completamente satisfeita com os resultados em até
+                        <strong>10 dias</strong>, basta nos contatar e devolveremos 100% do seu investimento, sem
+                        perguntas.
+                    </p>
+
+                    <div class="guarantee-features">
+                        <div class="g-feature">
+                            <span class="check-icon">✓</span> Devolução do dinheiro sem complicações
+                        </div>
+                        <div class="g-feature">
+                            <span class="check-icon">✓</span> Sem perguntas, sem burocracia
+                        </div>
+                        <div class="g-feature">
+                            <span class="check-icon">✓</span> Risco zero para você
+                        </div>
+                    </div>
+
+                    <div class="guarantee-highlight">
+                        Você não tem nada a perder e uma pele renovada a ganhar!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="faq-section">
+        <div class="container">
+            <h2 class="faq-section-title">Alguma dúvida? Relaxa, vamos te ajudar ;)</h2>
+
+            <div class="faq-list">
+                <!-- Q1 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Quanto tempo demora para ter resultado?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Em cerca de 5 minutinhos após aplicar você já nota a mágica! O efeito lifting começa a agir e
+                            pode durar até 8 horas.</p>
+                    </div>
+                </div>
+
+                <!-- Q2 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> É doloroso?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Zero dor! Ele foi desenvolvido para ser totalmente indolor e seguro. É normal sentir um leve
+                            "repuxado", resultado do efeito tensor do Creme, que desaparece após um curto período.</p>
+                    </div>
+                </div>
+
+                <!-- Q3 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Como funciona?
+                    </div>
+                    <div class="faq-answer">
+                        <p>A tecnologia Biotensor-P combina peptídeos bioativos e tecnologias de lifting instantâneo
+                            para atuar diretamente nos principais sinais que incomodam: linhas de expressão, perda de
+                            firmeza e aparência cansada.</p>
+                    </div>
+                </div>
+
+                <!-- Q4 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Foi testado quanto à segurança?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, com certeza! O Creme passou por rigorosos testes de segurança. Não foi observada
+                            irritação ou sensibilização na pele, nem irritação ocular ou fototoxicidade.</p>
+                    </div>
+                </div>
+
+                <!-- Q5 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Posso usar maquiagem após o tratamento?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Pode sim! Só recomendamos esperar pelo menos 15 minutos para aplicar. Dê preferência a
+                            produtos em pó e evite bases à base de água para não comprometer a película tensora.</p>
+                    </div>
+                </div>
+
+                <!-- Q6 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Quais são os ingredientes?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sua composição conta com: aqua (água), sodium silicate (silicato de sódio), magnesium
+                            aluminum silicate (silicato de magnésio e alumínio) e acetyl hexapeptide-8 (acetil
+                            hexapeptídeo-8).</p>
+                    </div>
+                </div>
+
+                <!-- Q7 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> A Le Mona é confiável?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Totalmente! O site da Le Mona é 100% seguro. Dezenas de milhares de pessoas em todo o Brasil
+                            já compraram conosco. Garantimos a entrega do seu pedido em perfeitas condições ou enviamos
+                            outro.</p>
+                    </div>
+                </div>
+
+                <!-- Q8 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Funciona para todo tipo de pele?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! O Creme Redutor de Linhas Instantâneo Le Mona funciona em todos os tipos de pele,
+                            inclusive nas mais sensíveis.</p>
+                    </div>
+                </div>
+
+                <!-- Q9 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Tem alguma contraindicação?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não há contraindicações conhecidas. Nossos ingredientes são testados quanto à segurança. Mas
+                            sempre recomendamos conferir a fórmula para garantir que você não tenha alergia a nenhum
+                            componente específico.</p>
+                    </div>
+                </div>
+
+                <!-- Q10 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Tem garantia?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Com certeza! Você pode experimentar por 10 dias. Se não ficar 100% satisfeita com o
+                            resultado, devolvemos todo o seu dinheiro sem burocracia.</p>
+                    </div>
+                </div>
+
+                <!-- Q11 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Quanto tempo demora para chegar?
+                    </div>
+                    <div class="faq-answer">
+                        <p>O prazo médio é de 5 a 10 dias úteis, variando de acordo com a sua região no Brasil.
+                            Entregamos em todo o país!</p>
+                    </div>
+                </div>
+
+                <!-- Q12 -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>+</span> Vocês vendem em algum lugar físico?
+                    </div>
+                    <div class="faq-answer">
+                        <p>Não! Somos uma marca moderna e vendemos exclusivamente através deste site oficial. Cuidado
+                            com imitações em outros lugares!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
