@@ -77,47 +77,49 @@
                 </div>
 
                 <!-- Instruction Text -->
-                <div class="selection-instruction">
-                    Primeiro selecione o seu kit desejado, e depois é so clicar no botão 'Comprar Agora'.
-                </div>
-
-                <!-- Quantity Options -->
-                <div class="quantity-options">
-                    <div class="option" data-quantity="1" onclick="selectQuantity(1)">
-                        <div class="option-header">
-                            <span class="quantity-label">1 Unidade</span>
-                            <span class="option-price">R$ 177,00</span>
-                        </div>
-                        <p class="treatment-info">Tratamento para 30 dias</p>
+                <div class="buy-box">
+                    <div class="selection-instruction">
+                        Primeiro selecione o seu kit desejado, e depois é so clicar no botão 'Comprar Agora'.
                     </div>
 
-                    <div class="option" data-quantity="2" onclick="selectQuantity(2)">
-                        <div class="option-header">
-                            <span class="quantity-label">2 Unidades</span>
-                            <span class="option-price">R$ 277,00</span>
+                    <!-- Quantity Options -->
+                    <div class="quantity-options">
+                        <div class="option" data-quantity="1" onclick="selectQuantity(1)">
+                            <div class="option-header">
+                                <span class="quantity-label">1 Unidade</span>
+                                <span class="option-price">R$ 177,00</span>
+                            </div>
+                            <p class="treatment-info">Tratamento para 30 dias</p>
                         </div>
-                        <p class="discount-info">Economize R$ 77,00 (22% de desconto)</p>
+
+                        <div class="option" data-quantity="2" onclick="selectQuantity(2)">
+                            <div class="option-header">
+                                <span class="quantity-label">2 Unidades</span>
+                                <span class="option-price">R$ 277,00</span>
+                            </div>
+                            <p class="discount-info">Economize R$ 77,00 (22% de desconto)</p>
+                        </div>
+
+                        <div class="option best-offer" data-quantity="3" onclick="selectQuantity(3)">
+                            <span class="badge">MELHOR OFERTA</span>
+                            <div class="option-header">
+                                <span class="quantity-label">3 Unidades</span>
+                                <span class="option-price">R$ 377,00</span>
+                            </div>
+                            <p class="discount-info">Economize R$ 154,00 (29% de desconto)</p>
+                        </div>
                     </div>
 
-                    <div class="option best-offer" data-quantity="3" onclick="selectQuantity(3)">
-                        <span class="badge">MELHOR OFERTA</span>
-                        <div class="option-header">
-                            <span class="quantity-label">3 Unidades</span>
-                            <span class="option-price">R$ 377,00</span>
-                        </div>
-                        <p class="discount-info">Economize R$ 154,00 (29% de desconto)</p>
+                    <!-- Buy Button -->
+                    <button class="buy-button" id="buyButton">COMPRAR AGORA</button>
+
+                    <!-- Guarantee -->
+                    <div class="guarantee">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M8 1L10 6H15L11 9L13 14L8 11L3 14L5 9L1 6H6L8 1Z" stroke="#666" fill="none" />
+                        </svg>
+                        <span>Garantia de 10 dias. Compra segura.</span>
                     </div>
-                </div>
-
-                <!-- Buy Button -->
-                <button class="buy-button" id="buyButton">COMPRAR AGORA</button>
-
-                <!-- Guarantee -->
-                <div class="guarantee">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M8 1L10 6H15L11 9L13 14L8 11L3 14L5 9L1 6H6L8 1Z" stroke="#666" fill="none" />
-                    </svg>
-                    <span>Garantia de 10 dias. Compra segura.</span>
                 </div>
 
                 <!-- Product Description -->
