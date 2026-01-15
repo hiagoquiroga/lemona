@@ -66,6 +66,18 @@ function selectQuantity(quantity) {
     updateMainPrice();
 }
 
+// Scroll da galeria de thumbnails
+function scrollGallery(direction) {
+    const thumbnails = document.querySelector('.thumbnails');
+    if (thumbnails) {
+        const scrollAmount = 90; // 80px thumbnail + 10px gap
+        thumbnails.scrollBy({
+            left: direction * scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+}
+
 // Trocar imagem principal
 function changeMainImage(thumbnail, index) {
     const mainImage = document.getElementById('mainImage');
